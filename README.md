@@ -1,6 +1,8 @@
-# Shiv Shakti Construction
+# Indore-Infra
 
-A premium, modern, and fully responsive full-stack website built for Shiv Shakti Construction, an Architecture, Interior Design, and Construction business based in Indore, Madhya Pradesh.
+A premium, modern, and fully responsive full-stack website built for INDORE INFRA CONSTRUCTION, an architecture, interior design, and construction business based in Indore, Madhya Pradesh.
+
+Built with React.js, Bootstrap, Node.js, Express.js, and MySQL, the site features project galleries, contact forms, quote requests, and customer enquiry management.
 
 ## 🚀 Features
 
