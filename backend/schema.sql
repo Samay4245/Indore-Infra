@@ -10,10 +10,10 @@ CREATE TABLE IF NOT EXISTS users (
 
 CREATE TABLE IF NOT EXISTS settings (
   id INT AUTO_INCREMENT PRIMARY KEY,
-  company_name VARCHAR(100) DEFAULT 'Shiv Shakti Construction',
-  owner_name VARCHAR(100) DEFAULT 'Roopnaryan Sukhla',
-  phone VARCHAR(20) DEFAULT '+91 88788 55113',
-  whatsapp VARCHAR(20) DEFAULT '+91 88788 55113',
+  company_name VARCHAR(100) DEFAULT 'INDORE INFRA CONSTRUCTION',
+  owner_name VARCHAR(100) DEFAULT 'Roopnarayan Shukla',
+  phone VARCHAR(20) DEFAULT '+91 96691 71255',
+  whatsapp VARCHAR(20) DEFAULT '+91 96691 71255',
   address TEXT,
   google_maps_url TEXT,
   instagram_url TEXT,
@@ -88,7 +88,7 @@ CREATE TABLE IF NOT EXISTS enquiries (
 
 -- Insert default settings
 INSERT INTO settings (company_name, owner_name, phone, whatsapp, address, google_maps_url)
-SELECT * FROM (SELECT 'Shiv Shakti Construction', 'Roopnaryan Sukhla', '+91 88788 55113', '+91 88788 55113', 'Mushkhedi, Panchshil Colony, Indore, Madhya Pradesh, India', 'https://maps.app.goo.gl/btKCR28UkKBnD2wE8') AS tmp
+SELECT * FROM (SELECT 'INDORE INFRA CONSTRUCTION', 'Roopnarayan Shukla', '+91 96691 71255', '+91 96691 71255', 'F-17, Ahinsa Tower, 7 MG Road, Near Indraprastha Tower, South Tukoganj, Indore, Madhya Pradesh, India', 'https://maps.app.goo.gl/Lk3QTTaH4tMeMPNo8') AS tmp
 WHERE NOT EXISTS (
     SELECT id FROM settings WHERE id = 1
 ) LIMIT 1;

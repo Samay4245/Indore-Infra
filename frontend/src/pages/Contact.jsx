@@ -19,6 +19,7 @@ const Contact = () => {
   });
 
   const [status, setStatus] = useState(null);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleChange = (e) => {
     setFormData({
@@ -32,6 +33,7 @@ const Contact = () => {
     e.preventDefault();
 
     setStatus(null);
+    setIsSubmitting(true);
 
     try {
       const response = await fetch(
@@ -57,7 +59,7 @@ const Contact = () => {
       setStatus({
         type: 'success',
         message:
-          'Thank you! Your enquiry has been received. Shiv Shakti Construction will contact you shortly.'
+          'Thank you! Your enquiry has been submitted successfully. Our team will contact you shortly.'
       });
 
       // Clear form
@@ -82,6 +84,8 @@ const Contact = () => {
         message:
           'Unable to submit your enquiry. Please try again.'
       });
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -155,7 +159,7 @@ const Contact = () => {
                   </h5>
 
                   <p className="text-muted mb-0">
-                    Mushkhedi, Panchshil Colony,
+                    F_17 Ahinsa tower 7 MG road,South Tukoganj,
                     <br />
                     Indore, Madhya Pradesh, India
                   </p>
@@ -189,11 +193,11 @@ const Contact = () => {
                   </h5>
 
                   <p className="text-muted mb-0">
-                    +91 88788 55113
+                    +91 96691 71255
                   </p>
 
                   <p className="text-muted small">
-                    Roopnaryan Sukhla (Owner)
+                    Roopnarayan Shukla (Owner)
                   </p>
                 </div>
               </div>
@@ -213,11 +217,11 @@ const Contact = () => {
                   </h5>
 
                   <p className="text-muted mb-0">
-                    +91 88788 55113
+                    +91 96691 71255
                   </p>
 
                   <a
-                    href="https://wa.me/918878855113?text=Hello,%20I%20found%20the%20Shiv%20Shakti%20Construction%20website..."
+                    href="https://wa.me/919669171255?text=Hello,%20I%20found%20the%20INDORE%20INFRA%20CONSTRUCTION%20website..."
                     target="_blank"
                     rel="noreferrer"
                     className="text-decoration-none mt-2 d-inline-block fw-bold"
@@ -457,8 +461,9 @@ const Contact = () => {
                   <button
                     type="submit"
                     className="btn btn-premium w-100"
+                    disabled={isSubmitting}
                   >
-                    Submit Request
+                    {isSubmitting ? 'Submitting...' : 'Submit Request'}
                   </button>
 
                 </Form>
@@ -476,7 +481,7 @@ const Contact = () => {
         style={{ height: '400px' }}
       >
         <iframe
-          src="https://maps.google.com/maps?q=Mushkhedi,%20Panchshil%20Colony,%20Indore,%20Madhya%20Pradesh,%20India&t=&z=14&ie=UTF8&iwloc=&output=embed"
+          src="https://maps.google.com/maps?q=F-17%2C%20Ahinsa%20Tower%2C%207%20MG%20Road%2C%20Near%20Indraprastha%20Tower%2C%20South%20Tukoganj%2C%20Indore%2C%20Madhya%20Pradesh%2C%20India&t=&z=16&ie=UTF8&iwloc=&output=embed"
           width="100%"
           height="100%"
           style={{ border: 0 }}

@@ -19,7 +19,7 @@ app.use('/api/enquiries', require('./routes/enquiries'));
 // app.use('/api/gallery', require('./routes/gallery'));
 // app.use('/api/before-after', require('./routes/beforeAfter'));
 // app.use('/api/testimonials', require('./routes/testimonials'));
-// app.use('/api/auth', require('./routes/auth'));
+app.use('/api/auth', require('./routes/auth'));
 // app.use('/api/settings', require('./routes/settings'));
 
 app.get('/', (req, res) => {

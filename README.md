@@ -57,6 +57,10 @@ A premium, modern, and fully responsive full-stack website built for Shiv Shakti
    npm run dev
    ```
    *The backend will run on `http://localhost:5000`.*
+5. To create or update the admin account, set `ADMIN_USERNAME` and `ADMIN_PASSWORD` in `.env`, then run:
+   ```bash
+   node create_admin.js
+   ```
 
 ### 3. Frontend Setup
 1. Open a new terminal and navigate to the frontend folder:
@@ -102,10 +106,10 @@ shiva-shakti-construction/
 
 ## 📞 Business Details Used
 
-- **Company Name**: Shiv Shakti Construction
-- **Owner**: Roopnaryan Sukhla
-- **Location**: Mushkhedi, Panchshil Colony, Indore, Madhya Pradesh, India
-- **Contact**: +91 88788 55113
+- **Company Name**: INDORE INFRA CONSTRUCTION
+- **Owner**: Roopnarayan Shukla
+- **Location**: F-17, Ahinsa Tower, 7 MG Road, Near Indraprastha Tower, South Tukoganj, Indore, Madhya Pradesh, India
+- **Contact**: +91 96691 71255
 
 ---
 

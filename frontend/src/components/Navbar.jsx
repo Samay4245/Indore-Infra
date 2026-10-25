@@ -7,7 +7,7 @@ const Navigation = () => {
     <Navbar bg="light" expand="lg" className="navbar-premium sticky-top" collapseOnSelect>
       <Container>
         <Navbar.Brand as={Link} to="/">
-          SHIV SHAKTI<br/><span style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>CONSTRUCTION</span>
+          INDORE INFRA <br /><span style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>CONSTRUCTION</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -19,8 +19,8 @@ const Navigation = () => {
             <Nav.Link as={NavLink} to="/process">Process</Nav.Link>
             <Nav.Link as={NavLink} to="/gallery">Gallery</Nav.Link>
             <Nav.Link as={NavLink} to="/location">Location</Nav.Link>
-            <Nav.Link as={NavLink} to="/mobile-preview">Mobile View</Nav.Link>
             <Nav.Link as={NavLink} to="/contact">Contact</Nav.Link>
+            <Nav.Link as={NavLink} to="/admin">Admin Login</Nav.Link>
           </Nav>
           <Nav>
             <Link to="/contact#quote" className="btn btn-premium">Get a Quote</Link>

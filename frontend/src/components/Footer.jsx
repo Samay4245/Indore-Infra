@@ -10,22 +10,22 @@ const Footer = () => {
         <Row className="mb-4">
           <Col lg={4} md={6} className="mb-4">
             <h4 style={{ fontFamily: 'var(--font-heading)', fontWeight: '700', letterSpacing: '1px', marginBottom: '20px' }}>
-              SHIV SHAKTI<br/>CONSTRUCTION
+              INDORE INFRA<br />CONSTRUCTION
             </h4>
             <p style={{ color: 'var(--text-muted)' }}>Architecture • Interior • Construction</p>
             <p className="mt-4">
-              <strong>Owner:</strong><br/>
-              Roopnaryan Sukhla
+              <strong>Owner:</strong><br />
+              Roopnarayan Shukla
             </p>
             <p>
-              <FaMapMarkerAlt className="me-2" /> Mushkhedi, Panchshil Colony,<br/>
-              Indore, Madhya Pradesh
+              <FaMapMarkerAlt className="me-2" /> F-17, Ahinsa Tower, 7 MG Road,<br />
+              Near Indraprastha Tower, South Tukoganj, Indore
             </p>
             <p>
-              <FaPhoneAlt className="me-2" /> <a href="tel:+918878855113" style={{ color: 'var(--text-light)' }}>+91 88788 55113</a>
+              <FaPhoneAlt className="me-2" /> <a href="tel:+919669171255" style={{ color: 'var(--text-light)' }}>+91 96691 71255</a>
             </p>
           </Col>
-          
+
           <Col lg={4} md={6} className="mb-4">
             <h5 className="mb-4" style={{ fontFamily: 'var(--font-heading)' }}>Quick Links</h5>
             <ul className="list-unstyled">
@@ -38,7 +38,7 @@ const Footer = () => {
               <li className="mb-2"><Link to="/contact">Contact</Link></li>
             </ul>
           </Col>
-          
+
           <Col lg={4} md={6} className="mb-4">
             <h5 className="mb-4" style={{ fontFamily: 'var(--font-heading)' }}>Services</h5>
             <ul className="list-unstyled mb-4">
@@ -52,15 +52,15 @@ const Footer = () => {
               <a href="https://instagram.com" target="_blank" rel="noreferrer" className="me-3" style={{ fontSize: '1.5rem' }}>
                 <FaInstagram />
               </a>
-              <a href="https://wa.me/918878855113" target="_blank" rel="noreferrer" style={{ fontSize: '1.5rem' }}>
+              <a href="https://wa.me/919669171255" target="_blank" rel="noreferrer" style={{ fontSize: '1.5rem' }}>
                 <FaWhatsapp />
               </a>
             </div>
           </Col>
         </Row>
-        
+
         <div className="text-center pt-4" style={{ borderTop: '1px solid rgba(255,255,255,0.1)', color: 'var(--text-muted)', fontSize: '0.9rem' }}>
-          &copy; {new Date().getFullYear()} Shiv Shakti Construction. All Rights Reserved.
+          &copy; {new Date().getFullYear()} INDORE INFRA CONSTRUCTION. All Rights Reserved.
         </div>
       </Container>
     </footer>

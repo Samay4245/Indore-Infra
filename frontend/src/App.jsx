@@ -32,7 +32,7 @@ function App() {
         <Routes>
           <Route path="/admin" element={<AdminLogin />} />
           <Route path="/admin/dashboard/*" element={<AdminDashboard />} />
-          
+
           <Route path="*" element={
             <>
               <Navbar />
@@ -50,24 +50,24 @@ function App() {
                   <Route path="/mobile-preview" element={<MobilePreview />} />
                 </Routes>
               </main>
-              
+
               {/* Floating CTAs */}
               <div className="floating-cta">
-                <a href="https://wa.me/918878855113?text=Hello,%20I%20found%20the%20Shiv%20Shakti%20Construction%20website%20and%20would%20like%20to%20discuss%20an%20architecture/interior/construction%20project." target="_blank" rel="noreferrer" className="floating-btn btn-whatsapp" title="WhatsApp Us">
+                <a href="https://wa.me/919669171255?text=Hello,%20I%20found%20the%20INDORE%20INFRA%20CONSTRUCTION%20website%20and%20would%20like%20to%20discuss%20an%20architecture/interior/construction%20project." target="_blank" rel="noreferrer" className="floating-btn btn-whatsapp" title="WhatsApp Us">
                   <FaWhatsapp />
                 </a>
-                <a href="tel:+918878855113" className="floating-btn btn-call" title="Call Now">
+                <a href="tel:+919669171255" className="floating-btn btn-call" title="Call Now">
                   <FaPhoneAlt />
                 </a>
               </div>
 
               {/* Mobile Sticky Bar */}
               <div className="mobile-sticky-bar">
-                <a href="tel:+918878855113" className="nav-item nav-link">
+                <a href="tel:+919669171255" className="nav-item nav-link">
                   <FaPhoneAlt />
                   Call
                 </a>
-                <a href="https://wa.me/918878855113?text=Hello,%20I%20found%20the%20Shiv%20Shakti%20Construction%20website%20and%20would%20like%20to%20discuss%20an%20architecture/interior/construction%20project." target="_blank" rel="noreferrer" className="nav-item nav-link">
+                <a href="https://wa.me/919669171255?text=Hello,%20I%20found%20the%20INDORE%20INFRA%20CONSTRUCTION%20website%20and%20would%20like%20to%20discuss%20an%20architecture/interior/construction%20project." target="_blank" rel="noreferrer" className="nav-item nav-link">
                   <FaWhatsapp />
                   WhatsApp
                 </a>

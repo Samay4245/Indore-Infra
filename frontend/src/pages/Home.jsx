@@ -8,27 +8,27 @@ const Home = () => {
     <div>
       {/* Hero Section */}
       <section className="position-relative" style={{ height: '90vh', overflow: 'hidden' }}>
-        <video 
-          autoPlay 
-          loop 
-          muted 
+        <video
+          autoPlay
+          loop
+          muted
           playsInline
-          style={{ 
-            position: 'absolute', 
-            width: '100%', 
-            height: '100%', 
-            objectFit: 'cover', 
-            zIndex: -2 
+          style={{
+            position: 'absolute',
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover',
+            zIndex: -2
           }}
         >
           <source src="/assets/promo-video.mp4" type="video/mp4" />
         </video>
         {/* Fallback image if video fails or takes time to load */}
-        <div 
-          style={{ 
-            position: 'absolute', 
-            width: '100%', 
-            height: '100%', 
+        <div
+          style={{
+            position: 'absolute',
+            width: '100%',
+            height: '100%',
             backgroundImage: 'url(/assets/hero-image.jpeg)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
@@ -47,10 +47,10 @@ const Home = () => {
           <Row>
             <Col lg={8} md={10} className="text-white">
               <span className="mb-3 d-block" style={{ color: 'var(--accent-color)', letterSpacing: '3px', fontWeight: '600', textTransform: 'uppercase' }}>
-                Shiv Shakti Construction
+                INDORE INFRA CONSTRUCTION
               </span>
               <h1 className="display-3 fw-bold mb-4" style={{ color: 'white', textTransform: 'uppercase', lineHeight: '1.1' }}>
-                DESIGNING SPACES.<br/>BUILDING VISIONS.
+                DESIGNING SPACES.<br />BUILDING VISIONS.
               </h1>
               <p className="lead mb-4" style={{ maxWidth: '600px', fontSize: '1.2rem', opacity: 0.9 }}>
                 Creating functional, elegant and beautiful spaces for modern living. Architecture • Interior • Construction
@@ -170,30 +170,30 @@ const Home = () => {
             <Col lg={5} className="mb-5 mb-lg-0">
               <span className="section-subtitle">Why Choose Us</span>
               <h2 className="section-title mb-4">Building Trust Through Excellence</h2>
-              
+
               <div className="d-flex mb-4">
-                <div className="me-3 mt-1 text-accent"><FaCheckCircle size={24} color="var(--accent-color)"/></div>
+                <div className="me-3 mt-1 text-accent"><FaCheckCircle size={24} color="var(--accent-color)" /></div>
                 <div>
                   <h5 className="fw-bold">Experienced Professionals</h5>
                   <p className="text-muted">A dedicated and professional approach to architecture, interior and construction projects.</p>
                 </div>
               </div>
               <div className="d-flex mb-4">
-                <div className="me-3 mt-1 text-accent"><FaCheckCircle size={24} color="var(--accent-color)"/></div>
+                <div className="me-3 mt-1 text-accent"><FaCheckCircle size={24} color="var(--accent-color)" /></div>
                 <div>
                   <h5 className="fw-bold">Customized Designs</h5>
                   <p className="text-muted">Designs tailored strictly according to the client's unique requirements and lifestyle.</p>
                 </div>
               </div>
               <div className="d-flex mb-4">
-                <div className="me-3 mt-1 text-accent"><FaCheckCircle size={24} color="var(--accent-color)"/></div>
+                <div className="me-3 mt-1 text-accent"><FaCheckCircle size={24} color="var(--accent-color)" /></div>
                 <div>
                   <h5 className="fw-bold">Quality Work</h5>
                   <p className="text-muted">Unyielding focus on premium quality materials and meticulous execution.</p>
                 </div>
               </div>
               <div className="d-flex mb-4">
-                <div className="me-3 mt-1 text-accent"><FaCheckCircle size={24} color="var(--accent-color)"/></div>
+                <div className="me-3 mt-1 text-accent"><FaCheckCircle size={24} color="var(--accent-color)" /></div>
                 <div>
                   <h5 className="fw-bold">Transparent Process</h5>
                   <p className="text-muted">Clear, open communication throughout every phase of the project.</p>
@@ -209,10 +209,10 @@ const Home = () => {
 
       {/* Video Section Preview */}
       <section className="py-0 position-relative" style={{ height: '60vh' }}>
-        <video 
-          autoPlay 
-          loop 
-          muted 
+        <video
+          autoPlay
+          loop
+          muted
           playsInline
           style={{ width: '100%', height: '100%', objectFit: 'cover' }}
         >

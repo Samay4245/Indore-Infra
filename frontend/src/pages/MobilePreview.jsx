@@ -14,15 +14,15 @@ const MobilePreview = () => {
     <div style={{ backgroundColor: 'var(--bg-stone)', minHeight: '100vh', padding: '40px 0' }}>
       <Container className="text-center">
         <h2 className="fw-bold mb-4" style={{ fontFamily: 'var(--font-heading)' }}>Device Preview</h2>
-        
+
         <div className="mb-4">
-          <button 
+          <button
             className={`btn me-3 ${device === 'mobile' ? 'btn-premium' : 'btn-premium-outline'}`}
             onClick={() => setDevice('mobile')}
           >
             <FaMobileAlt className="me-2" /> Mobile
           </button>
-          <button 
+          <button
             className={`btn ${device === 'tablet' ? 'btn-premium' : 'btn-premium-outline'}`}
             onClick={() => setDevice('tablet')}
           >
@@ -33,11 +33,11 @@ const MobilePreview = () => {
         <p className="text-muted mb-4">Currently viewing: <strong>{dimensions[device].name}</strong></p>
 
         {/* Device Frame */}
-        <div 
-          className="mx-auto shadow-lg bg-white" 
-          style={{ 
-            width: dimensions[device].width, 
-            height: dimensions[device].height, 
+        <div
+          className="mx-auto shadow-lg bg-white"
+          style={{
+            width: dimensions[device].width,
+            height: dimensions[device].height,
             borderRadius: '40px',
             border: '12px solid #1a1a1a',
             overflow: 'hidden',
@@ -47,7 +47,7 @@ const MobilePreview = () => {
         >
           {/* Notch for mobile */}
           {device === 'mobile' && (
-            <div 
+            <div
               style={{
                 position: 'absolute',
                 top: 0,
@@ -64,8 +64,8 @@ const MobilePreview = () => {
           )}
 
           {/* Iframe pointing to the homepage */}
-          <iframe 
-            src="/" 
+          <iframe
+            src="/"
             title="Mobile Preview"
             style={{
               width: '100%',
@@ -75,7 +75,7 @@ const MobilePreview = () => {
             }}
           />
         </div>
-        
+
         <div className="mt-5">
           <p className="text-muted small">Note: The preview iframe is fully functional. You can navigate through the entire website inside the device frame.</p>
         </div>
